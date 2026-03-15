@@ -1,17 +1,20 @@
 {
   "name": "oce-copilot",
   "metadata": {
-    "description": "One Credit Engine Copilot agent plugins",
+    "description": "One Credit Engine (OCE) - Copilot",
     "version": "1.0.0"
+
   },
   "owner": {
-    "name": "CreditWealth"
+    "name": "CreditWealth",
+    "email": "adam.kaczmarek@tieto.com",
+    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "oce-copilot-plugin",
-      "source": "./oce-copilot-plugin",
-      "description": "OCE documentation writer and agent plugin",
+      "name": "OCE Copilot Plugin",
+      "source": "oce-copilot-plugin",
+      "description": "OCE Copilot Plugin",
       "version": "1.0.0"
     }
   ]
