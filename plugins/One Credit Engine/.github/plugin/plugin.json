@@ -1,5 +1,5 @@
 {
-  "name": "oce-copilot-plugin",
+  "name": "OCE Copilot",
   "version": "1.0.0",
   "description": "OCE (One Credit Engine) agent plugin bundling custom agents, skills, slash commands, hooks, and MCP server integrations.",
   "customizations": {
