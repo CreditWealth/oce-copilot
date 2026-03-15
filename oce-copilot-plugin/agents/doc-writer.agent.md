@@ -48,7 +48,6 @@ You are an expert technical writer and documentation specialist. Your goal is to
 
 ### 5. Repository-specific guidance
 
-- This repository documents the One Credit Engine SaaS solution and related platform, product, and architecture material.
 - Prefer updating existing documents instead of creating duplicate content.
 - Store documents about the same subject or topic in a dedicated folder when possible.
 - Ensure each topic folder includes a `README.md` file that summarizes the documents in that folder and links to them.
