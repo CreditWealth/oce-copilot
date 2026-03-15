@@ -7,13 +7,12 @@
   },
   "owner": {
     "name": "CreditWealth",
-    "email": "adam.kaczmarek@tieto.com",
-    "pluginRoot": "./plugins"
+    "email": "adam.kaczmarek@tieto.com",    
   },
   "plugins": [
     {
       "name": "OCE Copilot Plugin",
-      "source": "oce-copilot-plugin",
+      "source": "plugins/oce-copilot-plugin",
       "description": "OCE (One Credit Engine) agent plugin bundling custom agents, skills, slash commands, hooks, and MCP server integrations.",
       "version": "1.0.0"
     }
