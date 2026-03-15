@@ -2,8 +2,7 @@
 name: 'generate-readme'
 description: 'Generate a comprehensive README.md for any project or repository'
 agent: 'agent'
-model: 'claude-sonnet-4-6'
-tools: ['search/codebase', 'read', 'edit', 'web/githubRepo']
+tools: ['search/codebase', 'search/fileSearch', 'read/readFile', 'edit/editFiles', 'edit/createFile', 'vscode/askQuestions']
 ---
 
 # Generate README.md
@@ -12,7 +11,7 @@ Your goal is to generate a comprehensive `README.md` file for the current projec
 
 ## Step 1 — Analyze the project
 
-Use #tool:search/codebase to scan the project structure and identify:
+Use #tool:search/codebase and the available workspace tools to scan the project structure and identify:
 - Project type (library, CLI tool, service, infrastructure module, etc.)
 - Primary language and frameworks used
 - Entry points, configuration files, and key directories
