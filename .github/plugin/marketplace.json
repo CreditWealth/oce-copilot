@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "OCE Copilot Plugin",
-      "source": "plugins/oce-copilot-plugin",
+      "source": "plugins/One Credit Engine",
       "description": "OCE (One Credit Engine) agent plugin bundling custom agents, skills, slash commands, hooks, and MCP server integrations.",
       "version": "1.0.0"
     }
