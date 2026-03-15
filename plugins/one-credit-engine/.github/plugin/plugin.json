@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "OCE (One Credit Engine) agent plugin bundling custom agents, skills, slash commands, hooks, and MCP server integrations.",
   "customizations": {
-    "agents": [
-      "agents/doc-writer.agent.md"
-    ],
+    "agents": ["agents/doc-writer.agent.md"],
     "skills": [],
     "slashCommands": [],
     "hooks": [],
-    "mcpServers": []
+    "mcpServers": [],
+    "prompts": ["prompts/generate-readme.prompt.md"]
   }
 }
