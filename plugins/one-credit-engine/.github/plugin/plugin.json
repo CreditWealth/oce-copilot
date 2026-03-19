@@ -5,7 +5,7 @@
   "customizations": {
     "agents": ["agents/doc-writer.agent.md"],
     "skills": [],
-    "slashCommands": ["prompts/generate-readme.prompt.md"],
+    "slashCommands": [],
     "hooks": [],
     "mcpServers": []
   }
